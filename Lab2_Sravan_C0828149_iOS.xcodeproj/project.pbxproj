@@ -14,6 +14,7 @@
 		7764BAE1279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7764BADF279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS.xcdatamodeld */; };
 		7764BAE3279F6A1800D5E12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7764BAE2279F6A1800D5E12B /* Assets.xcassets */; };
 		7764BAE6279F6A1800D5E12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7764BAE4279F6A1800D5E12B /* LaunchScreen.storyboard */; };
+		7764BAF127A08B3B00D5E12B /* WinningCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764BAF027A08B3B00D5E12B /* WinningCombinations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7764BAE2279F6A1800D5E12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7764BAE5279F6A1800D5E12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7764BAE7279F6A1800D5E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7764BAF027A08B3B00D5E12B /* WinningCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningCombinations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,41 @@
 		7764BAD5279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				7764BAEF27A08B0800D5E12B /* controller */,
+				7764BAEE27A08B0000D5E12B /* view */,
+				7764BAED27A08AF800D5E12B /* model */,
 				7764BAD6279F6A1700D5E12B /* AppDelegate.swift */,
 				7764BAD8279F6A1700D5E12B /* SceneDelegate.swift */,
-				7764BADA279F6A1700D5E12B /* ViewController.swift */,
-				7764BADC279F6A1700D5E12B /* Main.storyboard */,
 				7764BAE2279F6A1800D5E12B /* Assets.xcassets */,
 				7764BAE4279F6A1800D5E12B /* LaunchScreen.storyboard */,
 				7764BAE7279F6A1800D5E12B /* Info.plist */,
-				7764BADF279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS.xcdatamodeld */,
 			);
 			path = Lab2_Sravan_C0828149_iOS;
+			sourceTree = "<group>";
+		};
+		7764BAED27A08AF800D5E12B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7764BADF279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS.xcdatamodeld */,
+				7764BAF027A08B3B00D5E12B /* WinningCombinations.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7764BAEE27A08B0000D5E12B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7764BADC279F6A1700D5E12B /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7764BAEF27A08B0800D5E12B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7764BADA279F6A1700D5E12B /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7764BAE1279F6A1700D5E12B /* Lab2_Sravan_C0828149_iOS.xcdatamodeld in Sources */,
+				7764BAF127A08B3B00D5E12B /* WinningCombinations.swift in Sources */,
 				7764BADB279F6A1700D5E12B /* ViewController.swift in Sources */,
 				7764BAD7279F6A1700D5E12B /* AppDelegate.swift in Sources */,
 				7764BAD9279F6A1700D5E12B /* SceneDelegate.swift in Sources */,
